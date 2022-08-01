@@ -1,9 +1,9 @@
 
 # Проект 0 - Угадай число
 ## Оглавление
-[1. Описание проекта](https://github.com/Anaiya798/Skillfactory/blob/main/module_0/README.md#Описание-проекта)
-[2. Какой кейс решаем?](https://github.com/Anaiya798/Skillfactory/blob/main/module_0/README.md#Какой-кейс-решаем)
-[3. Подход к решению](https://github.com/Anaiya798/Skillfactory/blob/main/module_0/README.md#Подход-к-решению)
+[1. Описание проекта](https://github.com/Anaiya798/Skillfactory/blob/main/module_0/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/Anaiya798/Skillfactory/blob/main/module_0/README.md#Какой-кейс-решаем)  
+[3. Подход к решению](https://github.com/Anaiya798/Skillfactory/blob/main/module_0/README.md#Подход-к-решению)  
 
 ### Описание проекта
 Компьютер загадывает число, требуется отгадать его за минимальное число попыток.
