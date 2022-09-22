@@ -28,5 +28,5 @@
 ### Результат
 Качество данных существенно улучшено, датасет подготовлен для даьнейшего обучения модели. Решение доступно в [hh.ipynb](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/hh.ipynb).  
 
-**Примечание**: чтобы полноценно поработать с интерактивом plotly express, вставьте ссылку на  [hh.ipynb] (https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/hh.ipynb) в [nbviewer](https://nbviewer.org/).  
+**Примечание**: чтобы полноценно поработать с интерактивом plotly express, вставьте ссылку на  [hh.ipynb](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/hh.ipynb) в [nbviewer](https://nbviewer.org/).  
 
