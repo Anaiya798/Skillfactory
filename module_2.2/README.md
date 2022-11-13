@@ -16,7 +16,7 @@
 ### Краткая информация о данных  
 Все данные были получены с сайта для поиска работы [hh.ru](https://hh.ru/). Они представлены в виде 5 таблиц и хранятся в схеме **public** базы данных **project_sql** компании Skillfactory.
 Схема данных:
-![data_scheme](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/imgs/data_scheme.png)
+![data_scheme](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/imgs/data_scheme.png)  
 Описание таблиц:
 1. **Vacancies** - таблица хранит в себе данные по вакансиям.  
 2. **Areas** - таблица-справочник, которая хранит код города и его название.  
