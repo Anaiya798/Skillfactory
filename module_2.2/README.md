@@ -1,21 +1,23 @@
 
-# Проект 1.1 - Анализ вакансий HeadHunter
+# Проект 2.2 - Анализ вакансий HeadHunter.Часть 2
 ## Оглавление  
-[1. Описание проекта](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/README.md#Описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/README.md#Краткая-информация-о-данных)   
-[4. Этапы работы над проектом](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/Anaiya798/Skillfactory/blob/main/module_1.1/README.md#Результат)
+[1. Описание проекта](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/README.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/README.md#Краткая-информация-о-данных)   
+[4. Этапы работы над проектом](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/README.md#Этапы-работы-над-проектом)  
+[5. Результат](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/README.md#Результат)
 
 ### Описание проекта  
-В распоряжении имеется база резюме, выгруженная с сайта поиска вакансий hh.ru. Компания HeadHunter хочет построить модель, которая бы на основе этих данных автоматически определяла примерный уровень заработной платы, подходящей пользователю.    
+Некое кадровое агентство хочет создать модель машинного обучения, которая будет рекомендовать вакансии клиентам, претендующим на позицию Data Scientist
 
 ### Какой кейс решаем?  
-Необходимо преобразовать, исследовать и очистить имеющиеся данные, чтобы в дальнейшем получить качественную предсказательную модель  
+Необходимо понять, что из себя представляют имеющиеся данные и насколько они соответствуют целям проекта. В литературе эта часть работы над ML-проектом называется Data Understanding, или анализ данных.  
 
 ### Краткая информация о данных  
-[hh.csv](https://drive.google.com/file/d/12aw2GqoY4mVAtFDZNqPaI1cRNKLxijvw/view?usp=sharing) - датасет с резюме соискателей вакансий на HeadHunter  
-[exchange_rates.csv](https://drive.google.com/file/d/18-EQvwn11iORSM2VpWChditrB15eSmdF/view?usp=sharing) - дополнительная информация о курсах валют, необходимая для преобразования исходного датасета  
+Все данные были получены с сайта для поиска работы hh.ru. Они представлены в виде 5 таблиц и хранятся в схеме public базы данных project_sql компании Skillfactory.
+Схема данных:
+![data_scheme](https://github.com/Anaiya798/Skillfactory/blob/main/module_2.2/imgs/data_scheme.png)
+
 
 ### Этапы работы над проектом
 1. **Базовый анализ структуры данных**: подгрузка датасета с резюме, проверка данных на поврежденность, общая характеристика и основная статистическая информация о столбцах в данных.
